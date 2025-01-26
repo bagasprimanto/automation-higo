@@ -1,7 +1,6 @@
 package higowebsite.testcases;
 
 import org.testng.annotations.Test;
-import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -16,7 +15,7 @@ public class HomePageTest extends BaseTest{
 		ContactUsPage contactUs = wifiAdPage.goToContactUs();
 		contactUs.sendMessage();
 		String successMessage = contactUs.getSuccessMessage();
-		AssertJUnit.assertTrue(successMessage.equals("Pesan Anda berhasil terkirim."));
+		Assert.assertTrue(successMessage.equals("Pesan Anda berhasil terkirim."));
 	}
 
 }

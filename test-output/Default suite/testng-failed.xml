@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="higowebsite.testcases.HomePageTest">
+      <class name="higowebsite.testcases.BlogHomePageTest">
         <methods>
-          <include name="submitContactHIGOWifiAdvertising"/>
-          <include name="tearDown"/>
+          <include name="openArticleAndComment"/>
           <include name="launchApplication"/>
         </methods>
-      </class> <!-- higowebsite.testcases.HomePageTest -->
+      </class> <!-- higowebsite.testcases.BlogHomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

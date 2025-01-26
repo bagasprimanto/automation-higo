@@ -83,7 +83,7 @@ public class BaseTest {
 		return this.homePage;
 	}
 
-	@AfterMethod(alwaysRun = true)
+	//@AfterMethod(alwaysRun = true)
 	public void tearDown() {
 		this.driver.quit();
 	}
