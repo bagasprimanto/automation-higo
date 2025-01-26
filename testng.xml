@@ -3,9 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="higowebsite.demetriustests.AppTest"/>
       <class name="higowebsite.testcases.HomePageTest"/>
-      <class name="higowebsite.testcases.BaseTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
